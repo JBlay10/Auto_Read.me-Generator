@@ -10,6 +10,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 
 ## Table of Contents 
+<!-- delete if necesarry -->
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -36,11 +37,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Resources
 
-[How to create a Professional README!](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-[Inquirer Package!](https://www.npmjs.com/package/inquirer)
-
-[Get your badge!](https://shields.io/)
+- [How to create a Professional README!](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [Inquirer Package!](https://www.npmjs.com/package/inquirer)
+- [Get your badge!](https://shields.io/)
 
 
 
