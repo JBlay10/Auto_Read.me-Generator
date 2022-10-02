@@ -48,7 +48,7 @@ const questions = [
     { // Usage or Screenshot display
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for use. Include screenshots as needed use the provided syntax:\n ![alt text](assets/images/screenshot.png)",
+        message: "Provide instructions and examples for use. Include screenshots as needed use the provided syntax: ![alt text](assets/images/screenshot.png)",
         validate: inputUsage => {
             if(inputUsage) {
                 return true;
@@ -101,7 +101,7 @@ const questions = [
     { // Github
         type: "input",
         name: "github",
-        message: "Enter your Github username",
+        message: "Enter your Github username:",
         validate: inputGithub => {
             if(inputGithub) {
                 return true;
@@ -111,7 +111,7 @@ const questions = [
             }
         }
     },
-    { // 
+    { // Email
         type: "input",
         name: "email",
         message: "Enter your email for a secondary form of contact (optional)",
@@ -127,10 +127,22 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if(err)
+        throw(err);
+        console.log("Success! Readme is completed.")
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function(answer) {
+        console.log(answer);
+        writeToFile("testReadMe.md", generateMarkdown(answer));
+    });
+}
 
 // Function call to initialize app
 init();
