@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {   // Title
         type: "input",
@@ -48,7 +48,7 @@ const questions = [
     { // Usage or Screenshot display
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for use. Include screenshots as needed use the provided syntax: ![alt text](assets/images/screenshot.png)",
+        message: "Provide instructions and examples for use of the project:",
         validate: inputUsage => {
             if(inputUsage) {
                 return true;
@@ -58,21 +58,21 @@ const questions = [
             }
         }
     },
-    { // Collaborators
+    { // Collaborators (maybe remove validate)
         type: "input",
         name: "collaborators",
-        message: "Provide instructions and examples for use. Include screenshots as needed use the provided syntax:\n ![alt text](assets/images/screenshot.png)",
+        message: "List your collaborators and provide a link to their Github profiles, if any, third-party sources and online tutorials count:",
         validate: inputUsage => {
             if(inputUsage) {
                 return true;
             }else {
-                console.log("Project usage steps are required to continue.")
+                console.log("An answer is required to continue, (If no collaborators then type \"None\").")
                 return false;
             }
         }
     },
     { // License
-        type: "checkbox",
+        type: "list",
         name: "license",
         message: "Select a license for you project:",
         choices: ["MIT", "GPL v3.0", "Apache 2.0", "None"],
@@ -126,7 +126,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if(err)
@@ -135,7 +135,7 @@ function writeToFile(fileName, data) {
     });
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(function(answer) {
