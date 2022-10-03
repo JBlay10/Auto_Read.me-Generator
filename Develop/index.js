@@ -115,14 +115,14 @@ const questions = [
         type: "input",
         name: "email",
         message: "Enter your email for a secondary form of contact (optional)",
-        // validate: input => {
-        //     if(input) {
-        //         return true;
-        //     }else {
-        //         console.log("Project usage steps are required to continue.")
-        //         return false;
-        //     }
-        // }
+        validate: input => {
+            if(input) {
+                return true;
+            }else {
+                console.log("Email is required to continue.")
+                return false;
+            }
+        }
     },
 ];
 

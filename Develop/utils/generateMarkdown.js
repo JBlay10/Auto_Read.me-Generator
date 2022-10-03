@@ -21,18 +21,30 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let link = "";
+  if(license === 'MIT') {
+    link = "https://choosealicense.com/licenses/mit/"
+  } else if (license === 'Apache 2.0') {
+    link = "https://www.apache.org/licenses/LICENSE-2.0"
+  } else if (license === 'GPL v3.0') {
+    link = "https://choosealicense.com/licenses/gpl-3.0/"
+  } else {
+    link = ""
+  }
+  return link;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-// change back to data if needed ${renderLicenseLink(answer.license)} ${renderLicenseSection(answer.license)}
+// change back to data if needed  ${renderLicenseSection(answer.license)}
 function generateMarkdown(answer) {
   return `
   # ${answer.title}
-  ${renderLicenseBadge(answer.license)} 
+  ${renderLicenseBadge(answer.license)} ${renderLicenseLink(answer.license)} 
 
   ${answer.description}
 
@@ -50,6 +62,7 @@ function generateMarkdown(answer) {
   ${answer.installation}
 
   ## Usage
+  <!-- For the screenshots create an "assets/images" folder in your repository and upload your screenshot to it use this syntax: ![alt text](assets/images/screenshot.png) -->
 
   ${answer.usage}
 
