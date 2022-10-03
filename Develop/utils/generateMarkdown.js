@@ -40,9 +40,37 @@ function generateMarkdown(answer) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Collaborators](#collaborators)
   - [License](#license)
+  - [Testing](#test)
+  - [Contact me](#contact)
 
+  ## Installation
+
+  ${answer.installation}
+
+  ## Usage
+
+  ${answer.usage}
+
+  ## Collaborators
+
+  ${answer.collaborators}
+
+  ## License
+
+  ${answer.license}
+
+  ## Test
+
+  ${answer.tests}
+
+  ## Contact
+
+  All questions will be answered, choose one or both options:
+
+  - Github: ${answer.github}
+  - Email: ${answer.email}
 
 `;
 }
