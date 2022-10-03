@@ -6,15 +6,15 @@ const index = require("../index.js");
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let badge = '';
+  let badge = "";
   if(license === 'MIT') {
     badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   } else if (license === 'Apache 2.0') {
-    badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   } else if (license === 'GPL v3.0') {
-    badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+    badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
   } else {
-    badge = ''
+    badge = ""
   }
   return badge;
 }
@@ -69,7 +69,7 @@ function generateMarkdown(answer) {
 
   All questions will be answered, choose one or both options:
 
-  - Github: ${answer.github}
+  - Github: [${answer.github}!](https://github.com/${answer.github})
   - Email: ${answer.email}
 
 `;
