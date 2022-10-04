@@ -29,7 +29,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 - [How to create a Professional README!](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [Inquirer Package!](https://www.npmjs.com/package/inquirer)
 - [Get your badge!](https://shields.io/)
-
+- [Get your license badge!](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
 
