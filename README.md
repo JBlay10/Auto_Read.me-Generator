@@ -2,25 +2,13 @@
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-
-
-## Table of Contents 
-
-- [Usage](#usage)
-- [Screencastify](#screencastify)
-- [Resources](#Resources)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+For this project I created a Readme Generator only using Jscript. The purpose for this project, is to save time for me or any other developer that is creating a project. This will generate a proper and high quality Readme, it uses the same syntax as "Professional README Guide" found down below in the resources section.
 
 ## Screencastify
 
+![gif example](./Develop/assets/img/Auto%20Readme%20Generator.gif)
 
-
-## Usage
-
-
+[Checkout my video demo!](https://drive.google.com/file/d/14xeWhDqudIt6hxVK0NKDcCvZqv42P4wY/view)
 
 ## Resources
 
