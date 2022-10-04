@@ -26,7 +26,7 @@ function renderLicenseLink(license) {
   if(license === 'MIT') {
     link = "https://choosealicense.com/licenses/mit/"
   } else if (license === 'Apache 2.0') {
-    link = "https://www.apache.org/licenses/LICENSE-2.0"
+    link = "https://opensource.org/licenses/Apache-2.0"
   } else if (license === 'GPL v3.0') {
     link = "https://choosealicense.com/licenses/gpl-3.0/"
   } else {
@@ -60,7 +60,7 @@ function generateMarkdown(answer) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [Collaborators](#collaborators)
-  - [License](#license)
+  - [License](#license-${renderLicenseSection(answer.license)})
   - [Testing](#test)
   - [Contact me](#contact)
 
@@ -80,7 +80,6 @@ function generateMarkdown(answer) {
   ## License${renderLicenseSection(answer.license)}
   ${renderLicenseBadge(answer.license)} 
 
-  ${answer.license}
   [Get a ${answer.license} license here!](${renderLicenseLink(answer.license)})
 
   ## Test
