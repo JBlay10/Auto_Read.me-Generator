@@ -1,39 +1,39 @@
 
-  # La Pulga test 11
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+  # Readme +
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 
-  This is a quick test
+  this project is made 100% from Jscript and it will generate a readme file
 
   ## Table of Contents
 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Collaborators](#collaborators)
-  - [License](#license-MIT)
+  - [License](#license-Apache 2.0)
   - [Testing](#test)
   - [Contact me](#contact)
 
   ## Installation
 
-  1, 2, 3,
+  Code the questions array, make the functions and display the results
 
   ## Usage
   <!-- For the screenshots create an "assets/images" folder in your repository and upload your screenshot to it use this syntax: ![alt text](assets/images/screenshot.png) -->
 
-  something simple
+  this is the example
 
   ## Collaborators
 
-  None
+  Me, myself and I
 
-  ## License MIT
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  ## License Apache 2.0
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
-  [Get a MIT license here!](https://choosealicense.com/licenses/mit/)
+  [Get a Apache 2.0 license here!](https://opensource.org/licenses/Apache-2.0)
 
   ## Test
 
-  Like this
+  I test it just like this
 
   ## Contact
 
