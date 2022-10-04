@@ -5,18 +5,16 @@
 
 
 ## Table of Contents 
-<!-- delete if necesarry -->
 
-- [Installation](#installation)
 - [Usage](#usage)
-- [Video](#Video)
+- [Screencastify](#screencastify)
 - [Resources](#Resources)
 
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Video Sample
+## Screencastify
 
 
 

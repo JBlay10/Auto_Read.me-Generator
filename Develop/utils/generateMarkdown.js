@@ -1,10 +1,4 @@
-// packages for the application
-// const inquirer = require("inquirer");
-// const fs = require("fs");
-// const index = require("../index.js");
-
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   let badge = "";
   if(license === 'MIT') {
@@ -19,8 +13,7 @@ function renderLicenseBadge(license) {
   return badge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link
 function renderLicenseLink(license) {
   let link = "";
   if(license === 'MIT') {
@@ -35,8 +28,7 @@ function renderLicenseLink(license) {
   return link;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README
 function renderLicenseSection(license) {
   let section = "";
   if(license === "None") {
@@ -47,7 +39,7 @@ function renderLicenseSection(license) {
   return section;
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(answer) {
   return `
   # ${answer.title}
