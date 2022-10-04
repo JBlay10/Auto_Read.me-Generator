@@ -42,7 +42,7 @@ function renderLicenseSection(license) {
   if(license === "None") {
     section = ""
   } else {
-    section = `: ${license}`
+    section = ` ${license}`
   }
   return section;
 }
@@ -60,7 +60,7 @@ function generateMarkdown(answer) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [Collaborators](#collaborators)
-  - [License](#license-${renderLicenseSection(answer.license)})
+  - [License](#license-${answer.license})
   - [Testing](#test)
   - [Contact me](#contact)
 
