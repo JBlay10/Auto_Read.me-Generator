@@ -1,39 +1,39 @@
 
   # Readme +
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-  this project is made 100% from Jscript and it will generate a readme file
+  This project is made 100% of Jscript and it will generate a readme file
 
   ## Table of Contents
 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Collaborators](#collaborators)
-  - [License](#license-Apache 2.0)
+  - [License](#license-MIT)
   - [Testing](#test)
   - [Contact me](#contact)
 
   ## Installation
 
-  Code the questions array, make the functions and display the results
+  Add the question/propmt array, create functions for the readme file
 
   ## Usage
   <!-- For the screenshots create an "assets/images" folder in your repository and upload your screenshot to it use this syntax: ![alt text](assets/images/screenshot.png) -->
 
-  this is the example
+  This is a video example
 
   ## Collaborators
 
   Me, myself and I
 
-  ## License Apache 2.0
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+  ## License MIT
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-  [Get a Apache 2.0 license here!](https://opensource.org/licenses/Apache-2.0)
+  [Get a MIT license here!](https://choosealicense.com/licenses/mit/)
 
   ## Test
 
-  I test it just like this
+  i test them just like this
 
   ## Contact
 
