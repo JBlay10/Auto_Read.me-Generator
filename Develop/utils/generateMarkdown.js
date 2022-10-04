@@ -1,7 +1,7 @@
 // packages for the application
-const inquirer = require("inquirer");
-const fs = require("fs");
-const index = require("../index.js");
+// const inquirer = require("inquirer");
+// const fs = require("fs");
+// const index = require("../index.js");
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -78,9 +78,10 @@ function generateMarkdown(answer) {
   ${answer.collaborators}
 
   ## License${renderLicenseSection(answer.license)}
+  ${renderLicenseBadge(answer.license)} 
 
   ${answer.license}
-  [Get a license here!](${renderLicenseLink(answer.license)})
+  [Get a ${answer.license} license here!](${renderLicenseLink(answer.license)})
 
   ## Test
 
@@ -90,7 +91,7 @@ function generateMarkdown(answer) {
 
   All questions will be answered, choose one or both options:
 
-  - Github: [${answer.github}!](https://github.com/${answer.github})
+  - Github: [${answer.github}](https://github.com/${answer.github})
   - Email: ${answer.email}
 
 `;

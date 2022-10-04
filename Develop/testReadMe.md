@@ -1,8 +1,8 @@
 
-  # La Pulga test 7
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) https://choosealicense.com/licenses/gpl-3.0/ 
+  # La pulga test 8
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
 
-  watch him play with neymar, suarez, pique, Ibra, etc another goated team
+  jnddjnkdkd
 
   ## Table of Contents
 
@@ -15,29 +15,31 @@
 
   ## Installation
 
-  1, 2, 3 , 4
+  ndkjkdk 
 
   ## Usage
   <!-- For the screenshots create an "assets/images" folder in your repository and upload your screenshot to it use this syntax: ![alt text](assets/images/screenshot.png) -->
 
-  turn the tv on, look for espn+ watch la liga
+  kndkjdk
 
   ## Collaborators
 
-  LeoMessi, Neymarjr, G. Pique
+  mdkmd
 
-  ## License
+  ## License: Apache 2.0
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
-  GPL v3.0
+  Apache 2.0
+  [Get a Apache 2.0 license here!](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Test
 
-  like this
+  mdkmdm
 
   ## Contact
 
   All questions will be answered, choose one or both options:
 
-  - Github: [JBlay10!](https://github.com/JBlay10)
-  - Email: joseblay10@gmail.com
+  - Github: [JBlay10](https://github.com/JBlay10)
+  - Email: jb@gmail.com
 
